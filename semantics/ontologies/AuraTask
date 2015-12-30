@@ -46,17 +46,25 @@
     
 
 
-    <!-- http://localhost/SarmiotScenario#MaxValue -->
+    <!-- 
+http://https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/
+ontologies/SarmiotScenario#MaxValue -->
 
-    <owl:DatatypeProperty rdf:about="http://localhost/SarmiotScenario#MaxValue">
+    <owl:DatatypeProperty 
+rdf:about="http://https://github.com/viniciusmsfraga/auramiddleware/blob/master/
+semantics/ontologies/SarmiotScenario#MaxValue">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/llg/ontologies/2015/5/SarmiotSense#Range"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://localhost/SarmiotScenario#MinValue -->
+    <!-- 
+http://https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/
+ontologies/SarmiotScenario#MinValue -->
 
-    <owl:DatatypeProperty rdf:about="http://localhost/SarmiotScenario#MinValue">
+    <owl:DatatypeProperty 
+rdf:about="http://https://github.com/viniciusmsfraga/auramiddleware/blob/master/
+semantics/ontologies/SarmiotScenario#MinValue">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/llg/ontologies/2015/5/SarmiotSense#Range"/>
     </owl:DatatypeProperty>
     

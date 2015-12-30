@@ -1,5 +1,7 @@
 {
-  "dev":"localhost/SarmiotDevice#",
+  
+"dev":"https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/
+ontologies/SarmiotDevice#",
   "Measurement":"dev:Measurement",
   "value":"dev:Value",
   "timestamp":"dev:Timestamp",
