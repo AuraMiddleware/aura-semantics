@@ -1,7 +1,5 @@
 {
-  
-"scenario":"https://github.com/viniciusmsfraga/auramiddleware/blob/master/
-semantics/ontologies/SarmiotScenario#",
+"scenario":"https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/SarmiotScenario#",
   "ContinuousScenario":"scenario:ContinuousScenario",
   "maxValue":"scenario:Range:MaxValue",
   "minValue":"scenario:Range:MinValue",
