@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#"
-     xml:base="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing"
-     xmlns:auradevice="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#"
+<rdf:RDF xmlns="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#"
+     xml:base="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice"
+     xmlns:auradevice="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing">
+    <owl:Ontology rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice">
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.1</owl:versionInfo>
     </owl:Ontology>
     
@@ -24,44 +24,44 @@
     
 
 
-    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#hasActuator -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#hasActuator -->
 
-    <owl:ObjectProperty rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#hasActuator">
-        <rdfs:domain rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Platform"/>
+    <owl:ObjectProperty rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#hasActuator">
+        <rdfs:domain rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Platform"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#hasPlatform -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#hasPlatform -->
 
-    <owl:ObjectProperty rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#hasPlatform">
-        <rdfs:domain rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Device"/>
-        <rdfs:range rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Platform"/>
+    <owl:ObjectProperty rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#hasPlatform">
+        <rdfs:domain rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Device"/>
+        <rdfs:range rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Platform"/>
         <rdfs:label>hasPlatform</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#hasSensor -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#hasSensor -->
 
-    <owl:ObjectProperty rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#hasSensor">
+    <owl:ObjectProperty rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#hasSensor">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <rdfs:domain rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Platform"/>
+        <rdfs:domain rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Platform"/>
         <rdfs:label>hasSensor</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#wasMeasuredBy -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#wasMeasuredBy -->
 
-    <owl:ObjectProperty rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#wasMeasuredBy">
+    <owl:ObjectProperty rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#wasMeasuredBy">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <rdfs:domain rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Measurement"/>
-        <rdfs:range rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Device"/>
+        <rdfs:domain rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Measurement"/>
+        <rdfs:range rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Device"/>
         <rdfs:label>wasMeasuredBy</rdfs:label>
     </owl:ObjectProperty>
     
@@ -78,53 +78,53 @@
     
 
 
-    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Address -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Address -->
 
-    <owl:DatatypeProperty rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Address">
+    <owl:DatatypeProperty rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Address">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Device"/>
+        <rdfs:domain rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Device"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Brand -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Brand -->
 
-    <owl:DatatypeProperty rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Brand">
+    <owl:DatatypeProperty rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Brand">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Device"/>
-        <rdfs:domain rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Platform"/>
+        <rdfs:domain rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Device"/>
+        <rdfs:domain rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Platform"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#ID -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#ID -->
 
-    <owl:DatatypeProperty rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#ID">
+    <owl:DatatypeProperty rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#ID">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Device"/>
+        <rdfs:domain rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Device"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Timestamp -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Timestamp -->
 
-    <owl:DatatypeProperty rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Timestamp">
+    <owl:DatatypeProperty rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Timestamp">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Measurement"/>
+        <rdfs:domain rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Measurement"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Value -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Value -->
 
-    <owl:DatatypeProperty rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Value">
+    <owl:DatatypeProperty rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Value">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Measurement"/>
+        <rdfs:domain rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Measurement"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
@@ -141,25 +141,25 @@
     
 
 
-    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Device -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Device -->
 
-    <owl:Class rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Device">
+    <owl:Class rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Device">
         <rdfs:label>Device</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Measurement -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Measurement -->
 
-    <owl:Class rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Measurement">
+    <owl:Class rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Measurement">
         <rdfs:label>Measurement</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Platform -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Platform -->
 
-    <owl:Class rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Platform">
+    <owl:Class rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#Platform">
         <rdfs:label>Platform</rdfs:label>
     </owl:Class>
 </rdf:RDF>

@@ -3,11 +3,11 @@
      xml:base="localhost/AuraActuate"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:auraactuate="http://localhost/AuraActuate#"
+     xmlns:auraactuate="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="localhost/AuraActuate">
+    <owl:Ontology rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate">
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</owl:versionInfo>
     </owl:Ontology>
     
@@ -24,35 +24,35 @@
     
 
 
-    <!-- localhost/AuraActuate#changeState -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#changeState -->
 
-    <owl:ObjectProperty rdf:about="localhost/AuraActuate#changeState">
+    <owl:ObjectProperty rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#changeState">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <rdfs:domain rdf:resource="localhost/AuraActuate#DiscreteActuator"/>
+        <rdfs:domain rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#DiscreteActuator"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- localhost/AuraActuate#decreases -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#decreases -->
 
-    <owl:ObjectProperty rdf:about="localhost/AuraActuate#decreases">
+    <owl:ObjectProperty rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#decreases">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <rdfs:domain rdf:resource="localhost/AuraActuate#ContinuousActuator"/>
+        <rdfs:domain rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#ContinuousActuator"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- localhost/AuraActuate#increases -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#increases -->
 
-    <owl:ObjectProperty rdf:about="localhost/AuraActuate#increases">
+    <owl:ObjectProperty rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#increases">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <rdfs:domain rdf:resource="localhost/AuraActuate#ContinuousActuator"/>
+        <rdfs:domain rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#ContinuousActuator"/>
     </owl:ObjectProperty>
     
 
@@ -68,9 +68,9 @@
     
 
 
-    <!-- localhost/AuraActuate#ID -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#ID -->
 
-    <owl:DatatypeProperty rdf:about="localhost/AuraActuate#ID"/>
+    <owl:DatatypeProperty rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#ID"/>
     
 
 
@@ -85,27 +85,27 @@
     
 
 
-    <!-- localhost/AuraActuate#Actuator -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#Actuator -->
 
-    <owl:Class rdf:about="localhost/AuraActuate#Actuator">
+    <owl:Class rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#Actuator">
         <rdfs:label>Actuator</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- localhost/AuraActuate#ContinuousActuator -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#ContinuousActuator -->
 
-    <owl:Class rdf:about="localhost/AuraActuate#ContinuousActuator">
-        <rdfs:subClassOf rdf:resource="localhost/AuraActuate#Actuator"/>
+    <owl:Class rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#ContinuousActuator">
+        <rdfs:subClassOf rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#Actuator"/>
         <rdfs:label>ContinuousActuator</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- localhost/AuraActuate#DiscreteActuator -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#DiscreteActuator -->
 
-    <owl:Class rdf:about="localhost/AuraActuate#DiscreteActuator">
-        <rdfs:subClassOf rdf:resource="localhost/AuraActuate#Actuator"/>
+    <owl:Class rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#DiscreteActuator">
+        <rdfs:subClassOf rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#Actuator"/>
         <rdfs:label>DiscreteActuator</rdfs:label>
     </owl:Class>
     
@@ -122,10 +122,10 @@
     
 
 
-    <!-- localhost/AuraActuate#PowerOffActuator -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#PowerOffActuator -->
 
-    <owl:NamedIndividual rdf:about="localhost/AuraActuate#PowerOffActuator">
-        <rdf:type rdf:resource="localhost/AuraActuate#ContinuousActuator"/>
+    <owl:NamedIndividual rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#PowerOffActuator">
+        <rdf:type rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraActuate#ContinuousActuator"/>
     </owl:NamedIndividual>
     
 
@@ -138,8 +138,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description 
-rdf:about="http://www.semanticweb.org/llg/ontologies/2015/5/AuraDevice#Value">
+    <rdf:Description rdf:about="http://www.semanticweb.org/llg/ontologies/2015/5/AuraDevice#Value">
         <rdfs:comment>DiscreteActuator</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>

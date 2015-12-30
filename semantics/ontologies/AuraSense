@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="localhost/AuraSense#"
-     xml:base="localhost/AuraSense"
+<rdf:RDF xmlns="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#"
+     xml:base="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense"
      xmlns:aurasense="http://localhost/AuraSense#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="localhost/AuraSense">
+    <owl:Ontology rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense">
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</owl:versionInfo>
     </owl:Ontology>
     
@@ -24,27 +24,27 @@
     
 
 
-    <!-- localhost/AuraSense#canMeasure -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#canMeasure -->
 
-    <owl:ObjectProperty rdf:about="localhost/AuraSense#canMeasure">
+    <owl:ObjectProperty rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#canMeasure">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <rdfs:domain rdf:resource="localhost/AuraSense#ContinuousSensor"/>
-        <rdfs:range rdf:resource="localhost/AuraSense#Unit"/>
+        <rdfs:domain rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#ContinuousSensor"/>
+        <rdfs:range rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#Unit"/>
         <rdfs:label>canMeasure</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- localhost/AuraSense#unitOf -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#unitOf -->
 
-    <owl:ObjectProperty rdf:about="localhost/AuraSense#unitOf">
+    <owl:ObjectProperty rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#unitOf">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <rdfs:domain rdf:resource="localhost/AuraSense#Unit"/>
-        <rdfs:range rdf:resource="localhost/AuraSense#Variable"/>
+        <rdfs:domain rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#Unit"/>
+        <rdfs:range rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#Variable"/>
         <rdfs:label>unitOf</rdfs:label>
     </owl:ObjectProperty>
     
@@ -61,46 +61,46 @@
     
 
 
-    <!-- localhost/AuraSense#ID -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#ID -->
 
-    <owl:DatatypeProperty rdf:about="localhost/AuraSense#ID">
+    <owl:DatatypeProperty rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#ID">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="localhost/AuraSense#ContinuousSensor"/>
-        <rdfs:domain rdf:resource="localhost/AuraSense#DiscreteSensor"/>
-        <rdfs:domain rdf:resource="localhost/AuraSense#Unit"/>
-        <rdfs:domain rdf:resource="localhost/AuraSense#Variable"/>
+        <rdfs:domain rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#ContinuousSensor"/>
+        <rdfs:domain rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#DiscreteSensor"/>
+        <rdfs:domain rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#Unit"/>
+        <rdfs:domain rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#Variable"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- localhost/AuraSense#MaxValue -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#MaxValue -->
 
-    <owl:DatatypeProperty rdf:about="localhost/AuraSense#MaxValue">
-        <rdfs:subPropertyOf rdf:resource="localhost/AuraSense#Range"/>
+    <owl:DatatypeProperty rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#MaxValue">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#Range"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- localhost/AuraSense#MinValue -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#MinValue -->
 
-    <owl:DatatypeProperty rdf:about="localhost/AuraSense#MinValue">
-        <rdfs:subPropertyOf rdf:resource="localhost/AuraSense#Range"/>
+    <owl:DatatypeProperty rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#MinValue">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#Range"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- localhost/AuraSense#Precision -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#Precision -->
 
-    <owl:DatatypeProperty rdf:about="localhost/AuraSense#Precision">
+    <owl:DatatypeProperty rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#Precision">
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- localhost/AuraSense#Range -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#Range -->
 
-    <owl:DatatypeProperty rdf:about="localhost/AuraSense#Range"/>
+    <owl:DatatypeProperty rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#Range"/>
     
 
 
@@ -115,41 +115,41 @@
     
 
 
-    <!-- localhost/AuraSense#ContinuousSensor -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#ContinuousSensor -->
 
-    <owl:Class rdf:about="localhost/AuraSense#ContinuousSensor">
-        <rdfs:subClassOf rdf:resource="localhost/AuraSense#Sensor"/>
+    <owl:Class rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#ContinuousSensor">
+        <rdfs:subClassOf rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#Sensor"/>
         <rdfs:label>ContinuousSensor</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- localhost/AuraSense#DiscreteSensor -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#DiscreteSensor -->
 
-    <owl:Class rdf:about="localhost/AuraSense#DiscreteSensor">
-        <rdfs:subClassOf rdf:resource="localhost/AuraSense#Sensor"/>
+    <owl:Class rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#DiscreteSensor">
+        <rdfs:subClassOf rdf:resource="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#Sensor"/>
         <rdfs:label>DiscreteSensor</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- localhost/AuraSense#Sensor -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#Sensor -->
 
-    <owl:Class rdf:about="localhost/AuraSense#Sensor"/>
+    <owl:Class rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#Sensor"/>
     
 
 
-    <!-- localhost/AuraSense#Unit -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#Unit -->
 
-    <owl:Class rdf:about="localhost/AuraSense#Unit">
+    <owl:Class rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#Unit">
         <rdfs:label>Unit</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- localhost/AuraSense#Variable -->
+    <!-- https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#Variable -->
 
-    <owl:Class rdf:about="localhost/AuraSense#Variable">
+    <owl:Class rdf:about="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#Variable">
         <rdfs:label>Variable</rdfs:label>
     </owl:Class>
 </rdf:RDF>
