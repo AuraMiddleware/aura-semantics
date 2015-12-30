@@ -1,0 +1,8 @@
+{
+  "dev":"localhost/SarmiotDevice#",
+  "Device":"dev:Device",
+  "dev:hasPlatform":{
+      "@type":"@id"
+  },
+  "brand":"dev:Brand"
+}

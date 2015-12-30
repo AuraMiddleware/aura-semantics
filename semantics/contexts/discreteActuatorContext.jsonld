@@ -1,0 +1,7 @@
+{
+  "actuator":"localhost/SarmiotActuate#",
+  "DiscreteActuator":"actuator:DiscreteActuator",
+  "actuator:changeState":{
+      "@type":"@id"
+  }
+}

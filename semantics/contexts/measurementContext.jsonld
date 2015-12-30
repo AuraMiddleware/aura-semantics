@@ -1,0 +1,9 @@
+{
+  "dev":"localhost/SarmiotDevice#",
+  "Measurement":"dev:Measurement",
+  "value":"dev:Value",
+  "timestamp":"dev:Timestamp",
+  "dev:wasMeasuredBy":{
+      "@type":"@id"
+  }
+}

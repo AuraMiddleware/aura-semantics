@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#"
+     xml:base="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing"
+     xmlns:auradevice="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing">
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.1</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#hasActuator -->
+
+    <owl:ObjectProperty rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#hasActuator">
+        <rdfs:domain rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Platform"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#hasPlatform -->
+
+    <owl:ObjectProperty rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#hasPlatform">
+        <rdfs:domain rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Device"/>
+        <rdfs:range rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Platform"/>
+        <rdfs:label>hasPlatform</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#hasSensor -->
+
+    <owl:ObjectProperty rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#hasSensor">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Platform"/>
+        <rdfs:label>hasSensor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#wasMeasuredBy -->
+
+    <owl:ObjectProperty rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#wasMeasuredBy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Measurement"/>
+        <rdfs:range rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Device"/>
+        <rdfs:label>wasMeasuredBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Address -->
+
+    <owl:DatatypeProperty rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Address">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Brand -->
+
+    <owl:DatatypeProperty rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Brand">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Device"/>
+        <rdfs:domain rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Platform"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#ID -->
+
+    <owl:DatatypeProperty rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#ID">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Timestamp -->
+
+    <owl:DatatypeProperty rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Timestamp">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Measurement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Value -->
+
+    <owl:DatatypeProperty rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Value">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Measurement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Device -->
+
+    <owl:Class rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Device">
+        <rdfs:label>Device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Measurement -->
+
+    <owl:Class rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Measurement">
+        <rdfs:label>Measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Platform -->
+
+    <owl:Class rdf:about="https://drive.google.com/file/d/0Byem26fTtgX5TUFvTjJYcFJHOEk/view?usp=sharing#Platform">
+        <rdfs:label>Platform</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+

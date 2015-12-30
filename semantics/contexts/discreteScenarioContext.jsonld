@@ -1,0 +1,8 @@
+{
+  "scenario":"localhost/SarmiotScenario#",
+  "DiscreteScenario":"scenario:DiscreteScenario",
+  "value":"scenario:Value",
+  "scenario:enforces":{
+      "@type":"@id"
+  }
+}
