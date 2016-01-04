@@ -1,6 +1,9 @@
 {
-"dev":"https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#",
+  "dev":"https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraDevice#",
   "Measurement":"dev:Measurement",
+  "dev:valueOf":{
+    "@type":"@id"
+  },
   "value":"dev:Value",
   "timestamp":"dev:Timestamp",
   "dev:wasMeasuredBy":{
