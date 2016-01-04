@@ -1,0 +1,15 @@
+{
+  "sense": "https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#",
+  "ContinuousSensor":"sense:Sensor:ContinuousSensor",
+  "sense:canMeasure":{
+      "@type":"@id"
+  },
+  "precision":"sense:Precision",
+  "Unit":"sense:Unit",
+  "sense:unitOf":{
+      "@type":"@id"
+  },
+  "Variable":"sense:Variable",
+  "maxValue":"sense:Range:MaxValue",
+  "minValue":"sense:Range:MinValue"
+}
