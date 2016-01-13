@@ -1,5 +1,5 @@
 {
-"scenario":"https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraTask#",
+"scenario":"https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#",
   "ContinuousScenario":"scenario:ContinuousScenario",
   "maxValue":"scenario:Range:MaxValue",
   "minValue":"scenario:Range:MinValue",
