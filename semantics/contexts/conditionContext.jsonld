@@ -1,0 +1,9 @@
+{
+"task":"https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#",
+  "Condition":"task:Condition",
+  "maxValue":"task:Range:MaxValue",
+  "minValue":"task:Range:MinValue",
+  "task:enforces":{
+      "@type":"@id"
+  }
+}

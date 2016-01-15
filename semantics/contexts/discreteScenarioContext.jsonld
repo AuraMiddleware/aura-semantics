@@ -1,8 +1,0 @@
-{  
-"scenario":"https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#",
-  "DiscreteScenario":"scenario:DiscreteScenario",
-  "value":"scenario:Value",
-  "scenario:enforces":{
-      "@type":"@id"
-  }
-}
