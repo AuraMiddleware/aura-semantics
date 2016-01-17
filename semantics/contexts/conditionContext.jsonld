@@ -5,5 +5,8 @@
   "minValue":"task:Range:MinValue",
   "task:enforces":{
       "@type":"@id"
+  },
+  "task:triggers":{
+      "@type":"@id"
   }
 }

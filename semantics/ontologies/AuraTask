@@ -34,6 +34,17 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#triggers -->
+
+    <owl:ObjectProperty rdf:about="&auratask;triggers">
+        <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#ContinuousScenario"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#DiscreteScenario"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#enforces -->
 
     <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#enforces">
