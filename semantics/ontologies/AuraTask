@@ -39,19 +39,19 @@
     <owl:ObjectProperty rdf:about="&auratask;triggers">
         <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
-        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#ContinuousScenario"/>
-        <rdfs:range rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#DiscreteScenario"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#Condition"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#Command"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#enforces -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#enforces -->
 
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#enforces">
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#enforces">
         <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
         <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
         <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
-        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#Scenario"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#Scenario"/>
     </owl:ObjectProperty>
     
 
@@ -67,47 +67,47 @@
     
 
 
-    <!-- http://https://github.com/viniciusmsfraga/auramiddleware/blob/master/%20semantics/ontologies/SarmiotScenario#MaxValue -->
+    <!-- http://https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraTask#MaxValue -->
 
-    <owl:DatatypeProperty rdf:about="http://https://github.com/viniciusmsfraga/auramiddleware/blob/master/%20semantics/ontologies/SarmiotScenario#MaxValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/llg/ontologies/2015/5/SarmiotSense#Range"/>
+    <owl:DatatypeProperty rdf:about="http://https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraTask#MaxValue">
+        <rdfs:subPropertyOf rdf:resource="http://https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraTask#Range"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://https://github.com/viniciusmsfraga/auramiddleware/blob/master/%20semantics/ontologies/SarmiotScenario#MinValue -->
+    <!-- http://https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraTask#MinValue -->
 
-    <owl:DatatypeProperty rdf:about="http://https://github.com/viniciusmsfraga/auramiddleware/blob/master/%20semantics/ontologies/SarmiotScenario#MinValue">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/llg/ontologies/2015/5/SarmiotSense#Range"/>
+    <owl:DatatypeProperty rdf:about="http://https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraTask#MinValue">
+        <rdfs:subPropertyOf rdf:resource="http://https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraTask#Range"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/llg/ontologies/2015/5/SarmiotDevice#Value -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraDevice#Value -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/llg/ontologies/2015/5/SarmiotDevice#Value">
-        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#DiscreteScenario"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraDevice#Value">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#Command"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/llg/ontologies/2015/5/SarmiotSense#Range -->
+    <!-- http://https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraTask#Range -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/llg/ontologies/2015/5/SarmiotSense#Range">
+    <owl:DatatypeProperty rdf:about="http://https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraTask#Range">
         <rdfs:range rdf:resource="&xsd;float"/>
-        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#ContinuousScenario"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#Condition"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#ID -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#ID -->
 
-    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#ID">
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#ID">
         <rdf:type rdf:resource="&owl;FunctionalProperty"/>
         <rdfs:range rdf:resource="&xsd;string"/>
-        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#ContinuousScenario"/>
-        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#DiscreteScenario"/>
-        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#Scenario"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#Condition"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#Command"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#Scenario"/>
     </owl:DatatypeProperty>
     
 
@@ -123,27 +123,27 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#ContinuousScenario -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#Condition -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#ContinuousScenario">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#Condition">
         <rdfs:label>Condition</rdfs:label>
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#Scenario"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#Scenario"/>
     </owl:Class>
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#DiscreteScenario -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#Command -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#DiscreteScenario">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#Command">
         <rdfs:label>Command</rdfs:label>
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#Scenario"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#Scenario"/>
     </owl:Class>
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#Scenario -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#Scenario -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTaskk#Scenario">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#Scenario">
         <rdfs:label>Task</rdfs:label>
     </owl:Class>
 </rdf:RDF>

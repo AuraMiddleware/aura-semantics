@@ -134,23 +134,8 @@
 
     <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraActuate#PowerOffActuator -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraActuate#PowerOffActuator">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraActuate#ContinuousActuator"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraActuate#PowerOffActuator"/>
     
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="http://www.semanticweb.org/llg/ontologies/2015/5/AuraDevice#Value">
-        <rdfs:comment>DiscreteActuator</rdfs:comment>
-    </rdf:Description>
 </rdf:RDF>
 
 
