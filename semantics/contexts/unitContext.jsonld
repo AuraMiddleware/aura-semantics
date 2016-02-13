@@ -1,5 +1,5 @@
 {
-"sense":"https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraSense#",
+"sense":"https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraSense#",
   "Unit":"sense:Unit",
   "sense:unitOf":{
       "@type":"@id"

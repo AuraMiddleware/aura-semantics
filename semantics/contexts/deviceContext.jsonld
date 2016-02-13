@@ -1,5 +1,5 @@
 {
-  "dev":"https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraDevice#",
+  "dev":"https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraDevice#",
   "Device":"dev:Device",
   "dev:hasPlatform":{
       "@type":"@id"

@@ -6,18 +6,18 @@
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-    <!ENTITY aurasense "https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraSense#" >
+    <!ENTITY aurasense "https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraSense#" >
 ]>
 
 
-<rdf:RDF xmlns="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense#"
-     xml:base="https://github.com/viniciusmsfraga/auramiddleware/blob/master/semantics/ontologies/AuraSense"
-     xmlns:aurasense="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraSense#"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraSense#"
+     xml:base="https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraSense"
+     xmlns:aurasense="https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraSense#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraSense">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraSense">
         <owl:versionInfo rdf:datatype="&xsd;decimal">0.1</owl:versionInfo>
     </owl:Ontology>
     
@@ -34,7 +34,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraSense#canMeasure -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraSense#canMeasure -->
 
     <owl:ObjectProperty rdf:about="&aurasense;canMeasure">
         <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
@@ -47,7 +47,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraSense#unitOf -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraSense#unitOf -->
 
     <owl:ObjectProperty rdf:about="&aurasense;unitOf">
         <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
@@ -71,7 +71,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraSense#ID -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraSense#ID -->
 
     <owl:DatatypeProperty rdf:about="&aurasense;ID">
         <rdf:type rdf:resource="&owl;FunctionalProperty"/>
@@ -84,7 +84,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraSense#MaxValue -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraSense#MaxValue -->
 
     <owl:DatatypeProperty rdf:about="&aurasense;MaxValue">
         <rdfs:subPropertyOf rdf:resource="&aurasense;Range"/>
@@ -92,7 +92,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraSense#MinValue -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraSense#MinValue -->
 
     <owl:DatatypeProperty rdf:about="&aurasense;MinValue">
         <rdfs:subPropertyOf rdf:resource="&aurasense;Range"/>
@@ -100,7 +100,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraSense#Precision -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraSense#Precision -->
 
     <owl:DatatypeProperty rdf:about="&aurasense;Precision">
         <rdfs:range rdf:resource="&xsd;float"/>
@@ -108,7 +108,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraSense#Range -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraSense#Range -->
 
     <owl:DatatypeProperty rdf:about="&aurasense;Range"/>
     
@@ -125,7 +125,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraSense#ContinuousSensor -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraSense#ContinuousSensor -->
 
     <owl:Class rdf:about="&aurasense;ContinuousSensor">
         <rdfs:label>ContinuousSensor</rdfs:label>
@@ -134,7 +134,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraSense#DiscreteSensor -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraSense#DiscreteSensor -->
 
     <owl:Class rdf:about="&aurasense;DiscreteSensor">
         <rdfs:label>DiscreteSensor</rdfs:label>
@@ -143,13 +143,13 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraSense#Sensor -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraSense#Sensor -->
 
     <owl:Class rdf:about="&aurasense;Sensor"/>
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraSense#Unit -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraSense#Unit -->
 
     <owl:Class rdf:about="&aurasense;Unit">
         <rdfs:label>Unit</rdfs:label>
@@ -157,7 +157,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraSense#Variable -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraSense#Variable -->
 
     <owl:Class rdf:about="&aurasense;Variable">
         <rdfs:label>Variable</rdfs:label>

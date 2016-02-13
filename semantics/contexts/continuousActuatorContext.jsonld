@@ -1,5 +1,5 @@
 {  
-"actuator":"https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraActuate#",
+"actuator":"https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraActuate#",
   "ContinuousActuator":"actuator:ContinuousActuator",
   "actuator:increases":{
       "@type":"@id"

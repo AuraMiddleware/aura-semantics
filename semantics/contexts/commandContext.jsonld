@@ -1,5 +1,5 @@
 {  
-"task":"https://raw.githubusercontent.com/viniciusmsfraga/auramiddleware/master/semantics/ontologies/AuraTask#",
+"task":"https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraTask#",
   "Command":"task:Command",
   "value":"task:Value",
   "task:enforces":{
