@@ -1,5 +1,5 @@
 {
-  "sense": "https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraSense#",
+  "sense": "https://raw.githubusercontent.com/viniciusmsfraga/aura-semantics/master/semantics/ontologies/AuraSense#",
   "ContinuousSensor":"sense:Sensor:ContinuousSensor",
   "sense:canMeasure":{
       "@type":"@id"

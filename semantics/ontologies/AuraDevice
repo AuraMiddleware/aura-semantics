@@ -6,18 +6,18 @@
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-    <!ENTITY auradevice "https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraDevice#" >
+    <!ENTITY auradevice "https://raw.githubusercontent.com/viniciusmsfraga/aura-semantics/master/semantics/ontologies/AuraDevice#" >
 ]>
 
 
-<rdf:RDF xmlns="https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraDevice#"
-     xml:base="https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraDevice"
-     xmlns:auradevice="https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraDevice#"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/viniciusmsfraga/aura-semantics/master/semantics/ontologies/AuraDevice#"
+     xml:base="https://raw.githubusercontent.com/viniciusmsfraga/aura-semantics/master/semantics/ontologies/AuraDevice"
+     xmlns:auradevice="https://raw.githubusercontent.com/viniciusmsfraga/aura-semantics/master/semantics/ontologies/AuraDevice#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraDevice">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/viniciusmsfraga/aura-semantics/master/semantics/ontologies/AuraDevice">
         <owl:versionInfo rdf:datatype="&xsd;string">0.1</owl:versionInfo>
     </owl:Ontology>
     
@@ -34,7 +34,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraDevice#hasActuator -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura-semantics/master/semantics/ontologies/AuraDevice#hasActuator -->
 
     <owl:ObjectProperty rdf:about="&auradevice;hasActuator">
         <rdfs:domain rdf:resource="&auradevice;Platform"/>
@@ -42,7 +42,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraDevice#hasPlatform -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura-semantics/master/semantics/ontologies/AuraDevice#hasPlatform -->
 
     <owl:ObjectProperty rdf:about="&auradevice;hasPlatform">
         <rdfs:label>hasPlatform</rdfs:label>
@@ -52,7 +52,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraDevice#hasSensor -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura-semantics/master/semantics/ontologies/AuraDevice#hasSensor -->
 
     <owl:ObjectProperty rdf:about="&auradevice;hasSensor">
         <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
@@ -64,7 +64,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraDevice#valueOf -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura-semantics/master/semantics/ontologies/AuraDevice#valueOf -->
 
     <owl:ObjectProperty rdf:about="&auradevice;valueOf">
         <rdfs:domain rdf:resource="&auradevice;Measurement"/>
@@ -72,7 +72,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraDevice#wasMeasuredBy -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura-semantics/master/semantics/ontologies/AuraDevice#wasMeasuredBy -->
 
     <owl:ObjectProperty rdf:about="&auradevice;wasMeasuredBy">
         <rdf:type rdf:resource="&owl;AsymmetricProperty"/>
@@ -96,7 +96,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraDevice#Address -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura-semantics/master/semantics/ontologies/AuraDevice#Address -->
 
     <owl:DatatypeProperty rdf:about="&auradevice;Address">
         <rdf:type rdf:resource="&owl;FunctionalProperty"/>
@@ -106,7 +106,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraDevice#Brand -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura-semantics/master/semantics/ontologies/AuraDevice#Brand -->
 
     <owl:DatatypeProperty rdf:about="&auradevice;Brand">
         <rdf:type rdf:resource="&owl;FunctionalProperty"/>
@@ -118,7 +118,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraDevice#ID -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura-semantics/master/semantics/ontologies/AuraDevice#ID -->
 
     <owl:DatatypeProperty rdf:about="&auradevice;ID">
         <rdf:type rdf:resource="&owl;FunctionalProperty"/>
@@ -128,7 +128,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraDevice#Timestamp -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura-semantics/master/semantics/ontologies/AuraDevice#Timestamp -->
 
     <owl:DatatypeProperty rdf:about="&auradevice;Timestamp">
         <rdf:type rdf:resource="&owl;FunctionalProperty"/>
@@ -138,7 +138,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraDevice#Value -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura-semantics/master/semantics/ontologies/AuraDevice#Value -->
 
     <owl:DatatypeProperty rdf:about="&auradevice;Value">
         <rdf:type rdf:resource="&owl;FunctionalProperty"/>
@@ -159,7 +159,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraDevice#Device -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura-semantics/master/semantics/ontologies/AuraDevice#Device -->
 
     <owl:Class rdf:about="&auradevice;Device">
         <rdfs:label>Device</rdfs:label>
@@ -167,7 +167,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraDevice#Measurement -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura-semantics/master/semantics/ontologies/AuraDevice#Measurement -->
 
     <owl:Class rdf:about="&auradevice;Measurement">
         <rdfs:label>Measurement</rdfs:label>
@@ -175,7 +175,7 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraDevice#Platform -->
+    <!-- https://raw.githubusercontent.com/viniciusmsfraga/aura-semantics/master/semantics/ontologies/AuraDevice#Platform -->
 
     <owl:Class rdf:about="&auradevice;Platform">
         <rdfs:label>Platform</rdfs:label>

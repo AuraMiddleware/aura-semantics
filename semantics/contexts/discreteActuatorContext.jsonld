@@ -1,5 +1,5 @@
 {  
-"actuator":"https://raw.githubusercontent.com/viniciusmsfraga/aura_semantics/master/semantics/ontologies/AuraActuate#",
+"actuator":"https://raw.githubusercontent.com/viniciusmsfraga/aura-semantics/master/semantics/ontologies/AuraActuate#",
   "DiscreteActuator":"actuator:DiscreteActuator",
   "actuator:changeState":{
       "@type":"@id"
