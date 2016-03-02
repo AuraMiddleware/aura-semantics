@@ -1,5 +1,5 @@
 {
-  "dev":"https://raw.githubusercontent.com/viniciusmsfraga/aura-semantics/master/semantics/ontologies/AuraDevice#",
+  "dev":"https://raw.githubusercontent.com/AuraMiddleware/aura-semantics/master/semantics/ontologies/AuraDevice#",
   "Measurement":"dev:Measurement",
   "dev:valueOf":{
     "@type":"@id"
