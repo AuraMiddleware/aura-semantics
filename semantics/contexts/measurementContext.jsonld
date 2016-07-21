@@ -1,12 +1,14 @@
 {
-  "dev":"https://raw.githubusercontent.com/AuraMiddleware/aura-semantics/master/semantics/ontologies/AuraDevice#",
-  "Measurement":"dev:Measurement",
-  "dev:valueOf":{
-    "@type":"@id"
-  },
-  "value":"dev:Value",
-  "timestamp":"dev:Timestamp",
-  "dev:wasMeasuredBy":{
-      "@type":"@id"
+"@context":{
+      "dev":"https://raw.githubusercontent.com/AuraMiddleware/aura-semantics/master/semantics/ontologies/AuraDevice#",
+      "Measurement":"dev:Measurement",
+      "dev:valueOf":{
+        "@type":"@id"
+      },
+      "value":"dev:Value",
+      "timestamp":"dev:Timestamp",
+      "dev:wasMeasuredBy":{
+          "@type":"@id"
+      }
   }
 }

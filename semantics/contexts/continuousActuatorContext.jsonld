@@ -1,10 +1,12 @@
-{  
-"actuator":"https://raw.githubusercontent.com/AuraMiddleware/aura-semantics/master/semantics/ontologies/AuraActuate#",
-  "ContinuousActuator":"actuator:ContinuousActuator",
-  "actuator:increases":{
-      "@type":"@id"
-  },
-  "actuator:decreases":{
-      "@type":"@id"
-  }
+{
+"@context":{
+    "actuator":"https://raw.githubusercontent.com/AuraMiddleware/aura-semantics/master/semantics/ontologies/AuraActuate#",
+      "ContinuousActuator":"actuator:ContinuousActuator",
+      "actuator:increases":{
+          "@type":"@id"
+      },
+      "actuator:decreases":{
+          "@type":"@id"
+      }
+    }
 }
