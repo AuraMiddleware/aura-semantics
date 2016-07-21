@@ -1,4 +1,5 @@
 {
+"@context":{
   "sense": "https://raw.githubusercontent.com/AuraMiddleware/aura-semantics/master/semantics/ontologies/AuraSense#",
   "ContinuousSensor":"sense:Sensor:ContinuousSensor",
   "sense:canMeasure":{
@@ -12,4 +13,5 @@
   "Variable":"sense:Variable",
   "maxValue":"sense:Range:MaxValue",
   "minValue":"sense:Range:MinValue"
+  }
 }

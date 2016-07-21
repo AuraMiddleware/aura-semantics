@@ -1,8 +1,10 @@
 {
-  "dev":"https://raw.githubusercontent.com/AuraMiddleware/aura-semantics/master/semantics/ontologies/AuraDevice#",
-  "Device":"dev:Device",
-  "dev:hasPlatform":{
-      "@type":"@id"
-  },
-  "brand":"dev:Brand"
+"@context":{
+      "dev":"https://raw.githubusercontent.com/AuraMiddleware/aura-semantics/master/semantics/ontologies/AuraDevice#",
+      "Device":"dev:Device",
+      "dev:hasPlatform":{
+          "@type":"@id"
+      },
+      "brand":"dev:Brand"
+  }
 }
